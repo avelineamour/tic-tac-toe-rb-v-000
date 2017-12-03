@@ -88,6 +88,7 @@ def winner(board)
 end
 
 def play(board)
+<<<<<<< HEAD
   until over?(board)
     turn(board)
   end
@@ -106,3 +107,11 @@ end
 #     timesplayed += 1
 #   end
 # end
+=======
+  timesplayed = 0
+  until timesplayed == 9
+    turn(board)
+    timesplayed += 1
+  end
+end
+>>>>>>> d0793556bed9ec355f3ae6054a36a6b4e03be30d
